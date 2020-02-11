@@ -6,3 +6,5 @@ function User(name, age, hobbies) {
         console.log("Welcome to the company: " + this.name)
     }
 }
+const user1 = new User('kobe', 41, ['basketball', 'movies']);
+user1.greetings();
