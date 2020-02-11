@@ -3,7 +3,7 @@ function User(name, age, hobbies) {
     this.age = age;
     this.hobbies = hobbies;
     this.greetings = () => {
-        console.log("Welcome to the company: " + this.name)
+        alert("Welcome to the company: " + this.name + ", age: " + this.age + ", hobbies: " + hobbies);
     }
 }
 const user1 = new User('kobe', 41, ['basketball', 'movies']);
